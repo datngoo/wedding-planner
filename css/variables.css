@@ -1,0 +1,43 @@
+:root {
+  /* Warm ivory, quiet bronze and ink. Accent text uses the darker tone. */
+  --color-bg: #f8f5ef;
+  --color-bg-soft: #f1ece4;
+  --color-surface: #fcfaf6;
+  --color-paper: #fcfaf6;
+  --color-text: #28251f;
+  --color-text-soft: #6e675d;
+  --color-muted: var(--color-text-soft);
+  --color-accent: #8a7350;
+  --color-accent-dark: #6f593b;
+  --color-accent-light: #d8c9b4;
+  --color-button: #786346;
+  --color-border: rgb(40 37 31 / 12%);
+  --color-dark: #302a23;
+  --color-light: #fcfaf6;
+  --color-error: #963e31;
+  --color-overlay: rgb(40 37 31 / 25%);
+  --color-backdrop: rgb(35 29 23 / 64%);
+  --color-header-initial: rgb(248 245 239 / 75%);
+  --color-header: rgb(248 245 239 / 94%);
+  --color-hero-wash: rgb(248 245 239 / 94%);
+  --color-hero-soft: rgb(248 245 239 / 64%);
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', Arial, sans-serif;
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+  --container-width: 1280px;
+  --space-xs: .5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --section-space: clamp(2.6rem, 4vw, 3.75rem);
+  --gutter: clamp(1.5rem, 4vw, 4rem);
+  --ease-editorial: cubic-bezier(.22, .61, .36, 1);
+  --transition: 360ms var(--ease-editorial);
+  --reveal-duration: 850ms;
+  --border: 1px solid var(--color-border);
+}
+
